@@ -1,0 +1,14 @@
+main {
+    background: lightblue;
+    padding: 1em;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+
+    .product{
+        flex-grow: 1;
+        background: #fff;
+        padding: .5em;
+    }
+}
